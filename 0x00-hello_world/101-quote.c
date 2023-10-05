@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 
-/**     
+/**
  * main - Entry point
- *           
+ *
  * Description :'program to print text'
  *
  * Return: Always 0 (success)
