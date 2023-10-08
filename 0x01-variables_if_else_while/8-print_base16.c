@@ -7,9 +7,9 @@
  */
 
 int main(void)
-{	
+{
 	/* Print all the numbers in base 16 */
-	
+
 	int ch;
 
 	for (ch = 0; ch <= 9; ch++)
@@ -17,7 +17,7 @@ int main(void)
 		putchar('0' + ch);
 	}
 
-	for (ch = 'a'; ch <= 'f'; ch ++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 		putchar(ch);
 
 	putchar('\n');
