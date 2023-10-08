@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
-*  main - print numbers
-*
-* Return: Always (0) success
-*/
-
+ * main - Entry point
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	int n;
-
-	for (n = 0; n < 10; n++)
-		write(n);
+	long int i = 0;
+	
+	while (i < 10)
+	{
+		putc(i);
+		i++;
+	}
 	putchar('\n');
 	return (0);
 }
