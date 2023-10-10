@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-void print_alphabet(void);
+#include <main.h>
 
 /**
  * print_alphabet - print all the alphabets
