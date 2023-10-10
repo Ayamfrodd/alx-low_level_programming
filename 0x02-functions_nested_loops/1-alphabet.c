@@ -10,20 +10,10 @@ void print_alphabet(void)
 
 	while (ch <= 'z')
 	{
-		putchar(ch);
+		_putchar(ch);
 		ch++;
 	}
-	putchar('\n');
+
+	_putchar('\n');
 }
 
-/**
- * main - print alphabet
- *
- * Return : Alwyas (0) success
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
