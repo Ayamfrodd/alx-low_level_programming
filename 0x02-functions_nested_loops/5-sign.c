@@ -18,6 +18,6 @@ int print_sign(int n)
 		putchar('-');
 		return (-1);
 	}
-	putchar (48);
+	printf("%d",0);
 	return (0);
 }
