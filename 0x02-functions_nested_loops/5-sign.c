@@ -2,6 +2,8 @@
 
 /**
  * print_sign- print signs
+ *
+ * @n: The number that will be printed
  * Return: return 1 if positive, -1 if negative and Alyas (0) success
  *
  */
