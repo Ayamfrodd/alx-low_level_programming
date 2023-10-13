@@ -1,12 +1,12 @@
 #include "main.h"
 
-/** 
- * _isupper - check if int is caps
+/**
+ * _isupper - check if c is upper
  *
- * @c - int to check
+ * @c: input for alphabet
  *
- * Return : 1 if caps and 0 if not
- */
+ * Return: 1 if its uppercase, 0 if not
+*/
 
 int _isupper(int c)
 {
