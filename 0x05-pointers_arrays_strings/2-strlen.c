@@ -6,7 +6,7 @@ int _strlen(char *s)
 	while(*s)
 	{
 		c++;
-		*(s++);
+		(*s)++;
 	}
 	return (c);
 }
